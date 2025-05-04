@@ -1,0 +1,201 @@
+cpu_cores,ram_gb,latencia_ms,armazenamento_tb,sistema_operacional,tipo_hd,tipo_processador,tempo_resposta
+9,8,67.38,2.0,Windows,HDD,AMD,98.89
+12,4,128.17,2.0,Linux,HDD,Intel,89.04
+6,16,232.44,2.0,Linux,SSD,AMD,110.11
+3,8,246.34,1.0,MacOS,SSD,Apple Silicon,269.28
+12,8,74.14,0.512,Linux,SSD,Intel,80.37
+10,64,,0.256,MacOS,SSD,Apple Silicon,54.0
+4,8,29.41,0.256,MacOS,HDD,Apple Silicon,201.24
+12,4,7.94,1.0,MacOS,HDD,Apple Silicon,79.8
+15,8,165.05,2.0,Windows,SSD,AMD,73.73
+3,8,68.09,0.256,Windows,SSD,AMD,250.34
+11,32,24.59,0.512,Linux,HDD,Intel,67.76
+11,8,219.22,0.256,Linux,HDD,AMD,76.42
+6,16,149.89,,MacOS,SSD,Apple Silicon,127.11
+9,32,239.09,0.256,MacOS,HDD,Apple Silicon,87.51
+4,16,199.52,,Windows,HDD,Intel,169.74
+7,16,219.21,0.512,Windows,,AMD,117.26
+10,4,92.9,1.0,MacOS,HDD,Apple Silicon,91.71
+3,8,79.72,2.0,MacOS,SSD,Apple Silicon,251.21
+9,16,180.66,2.0,Linux,SSD,Intel,84.09
+11,8,60.82,0.256,MacOS,SSD,Apple Silicon,83.28
+8,8,244.81,1.0,MacOS,HDD,Apple Silicon,105.08
+4,4,157.35,2.0,MacOS,HDD,Apple Silicon,220.61
+2,4,68.87,0.256,Windows,HDD,Intel,393.97
+7,16,187.93,0.512,Windows,SSD,AMD,111.36
+3,16,283.57,1.0,Linux,HDD,AMD,198.48
+4,32,25.55,0.256,Linux,HDD,Intel,123.06
+13,8,33.69,1.0,Linux,SSD,Intel,72.0
+15,8,253.31,2.0,MacOS,HDD,Apple Silicon,72.96
+6,4,33.77,0.256,MacOS,,Apple Silicon,154.38
+15,4,12.77,0.512,Windows,SSD,Intel,65.02
+12,16,,0.512,MacOS,HDD,Apple Silicon,68.66
+9,32,,0.256,MacOS,HDD,Apple Silicon,75.43
+3,32,,,Windows,HDD,Intel,143.49
+7,4,152.68,1.0,Linux,HDD,AMD,134.45
+2,4,,0.256,MacOS,HDD,Apple Silicon,367.8
+8,32,230.83,1.0,Windows,HDD,AMD,72.7
+5,32,295.16,2.0,Windows,SSD,AMD,125.9
+2,16,143.46,0.256,Linux,SSD,AMD,244.39
+10,32,26.21,2.0,Windows,SSD,AMD,71.1
+10,8,286.7,0.512,Linux,HDD,Intel,90.16
+12,32,2.23,,Linux,SSD,Intel,62.35
+4,64,233.05,1.0,Linux,SSD,AMD,101.75
+7,32,10.35,0.512,Linux,SSD,AMD,90.89
+8,4,228.6,2.0,Linux,,Intel,107.86
+14,4,281.44,1.0,Windows,SSD,AMD,78.09
+5,64,117.39,0.512,MacOS,HDD,Apple Silicon,75.18
+7,8,73.05,0.512,Linux,SSD,AMD,125.21
+10,32,,0.512,Linux,,Intel,76.27
+15,32,148.02,0.256,MacOS,SSD,Apple Silicon,48.63
+11,64,52.1,2.0,MacOS,,Apple Silicon,55.61
+7,16,202.2,0.512,Linux,HDD,AMD,107.65
+8,16,111.14,2.0,MacOS,SSD,Apple Silicon,100.38
+7,8,97.61,1.0,Linux,SSD,AMD,126.48
+8,32,138.92,0.256,Windows,SSD,AMD,80.94
+2,32,163.23,0.512,MacOS,HDD,Apple Silicon,158.37
+7,32,43.44,0.512,MacOS,SSD,Apple Silicon,91.89
+13,4,212.62,0.512,Windows,SSD,AMD,86.0
+10,16,265.0,1.0,MacOS,HDD,Apple Silicon,91.64
+12,64,84.12,0.256,Windows,HDD,Intel,52.51
+4,4,54.94,2.0,Linux,SSD,AMD,220.97
+15,4,228.39,2.0,MacOS,SSD,Apple Silicon,72.38
+7,16,55.88,2.0,MacOS,SSD,Apple Silicon,112.11
+5,32,13.34,2.0,Windows,SSD,AMD,111.69
+8,8,186.15,2.0,Linux,HDD,Intel,112.03
+8,64,72.69,,Linux,SSD,Intel,64.67
+14,16,52.37,,Windows,SSD,Intel,61.23
+10,8,,0.256,MacOS,SSD,Apple Silicon,101.15
+5,16,88.27,0.256,MacOS,HDD,Apple Silicon,137.3
+15,16,271.13,1.0,Windows,HDD,AMD,54.29
+9,16,54.29,0.512,Windows,SSD,Intel,89.02
+9,16,,0.256,Windows,HDD,Intel,134.01
+9,32,,0.512,MacOS,SSD,Apple Silicon,81.85
+15,4,24.5,1.0,Windows,SSD,AMD,63.19
+9,16,220.35,0.256,Linux,HDD,Intel,75.84
+7,8,267.73,,Windows,HDD,AMD,101.63
+9,8,49.74,,Linux,HDD,AMD,97.17
+7,8,217.95,0.256,Linux,SSD,AMD,115.75
+11,4,134.07,2.0,Windows,HDD,Intel,80.42
+15,4,226.41,0.512,Linux,SSD,AMD,59.23
+15,8,214.46,1.0,MacOS,,Apple Silicon,71.45
+3,32,8.95,2.0,Windows,SSD,Intel,142.77
+14,4,54.44,,MacOS,SSD,Apple Silicon,70.91
+4,4,141.84,0.256,MacOS,SSD,Apple Silicon,214.67
+7,32,280.14,1.0,Linux,,Intel,85.55
+8,16,103.28,0.512,MacOS,HDD,Apple Silicon,95.16
+15,4,,1.0,MacOS,,Apple Silicon,68.7
+5,8,4.61,0.256,Windows,SSD,AMD,166.62
+2,8,213.63,2.0,Windows,HDD,,352.27
+5,32,181.32,1.0,MacOS,HDD,Apple Silicon,105.03
+7,8,214.9,2.0,Linux,HDD,Intel,113.83
+9,64,271.49,0.512,Linux,HDD,AMD,62.85
+14,8,44.8,0.512,Windows,SSD,Intel,66.27
+13,32,79.22,2.0,Windows,HDD,Intel,60.81
+14,32,298.74,0.512,Windows,SSD,Intel,54.63
+14,32,47.73,2.0,Linux,SSD,Intel,55.22
+15,64,216.47,,Windows,SSD,Intel,36.25
+14,4,217.8,2.0,MacOS,SSD,Apple Silicon,66.03
+5,16,205.22,0.512,Linux,,Intel,127.16
+11,8,69.0,2.0,MacOS,HDD,Apple Silicon,87.47
+2,4,65.33,0.512,Windows,HDD,AMD,404.15
+6,32,,2.0,Linux,,Intel,109.39
+8,4,56.69,2.0,Windows,HDD,Intel,116.35
+7,4,198.81,0.512,Linux,SSD,AMD,127.09
+4,64,148.27,2.0,Windows,SSD,AMD,87.03
+14,32,116.6,2.0,Linux,SSD,Intel,50.01
+8,32,90.77,0.512,Linux,SSD,Intel,88.49
+5,8,,0.256,Linux,HDD,Intel,132.82
+6,8,,1.0,MacOS,SSD,Apple Silicon,139.4
+12,8,168.81,,Windows,HDD,AMD,67.94
+8,8,284.83,2.0,Windows,HDD,Intel,128.87
+3,4,196.51,1.0,Linux,,Intel,296.26
+5,4,287.4,1.0,MacOS,,Apple Silicon,189.93
+5,8,32.8,2.0,Linux,SSD,AMD,169.81
+7,8,254.15,2.0,Windows,HDD,AMD,125.13
+13,8,101.29,0.256,Windows,SSD,AMD,74.63
+12,16,243.34,2.0,Linux,HDD,Intel,51.99
+8,8,256.84,1.0,Linux,SSD,AMD,107.0
+5,16,82.17,2.0,Linux,SSD,Intel,143.31
+11,8,123.24,1.0,Windows,HDD,AMD,77.68
+2,32,218.08,0.512,Linux,HDD,AMD,169.45
+2,64,30.62,,Linux,HDD,Intel,96.99
+6,4,,1.0,Windows,SSD,Intel,159.52
+2,32,34.03,0.512,Linux,HDD,AMD,165.93
+4,64,274.42,0.256,MacOS,HDD,Apple Silicon,72.53
+10,16,83.63,1.0,Windows,HDD,Intel,86.44
+4,4,173.1,1.0,Linux,SSD,Intel,234.89
+4,16,36.03,2.0,Linux,HDD,AMD,168.27
+14,16,81.58,0.256,Windows,HDD,Intel,59.19
+10,4,121.78,2.0,Windows,SSD,Intel,99.31
+6,64,146.63,0.256,MacOS,HDD,Apple Silicon,69.55
+13,4,,,Linux,SSD,AMD,74.13
+9,8,266.71,0.256,Linux,SSD,Intel,102.95
+11,16,3.29,1.0,Linux,SSD,Intel,76.68
+10,8,232.33,0.512,Windows,,Intel,88.1
+13,4,141.7,,Windows,SSD,AMD,68.23
+7,4,157.64,2.0,Windows,SSD,Intel,127.21
+8,64,63.27,,Linux,SSD,Intel,61.47
+8,16,182.6,0.512,Linux,SSD,Intel,102.5
+8,32,161.63,0.512,Windows,SSD,Intel,90.67
+5,4,50.11,,MacOS,SSD,Apple Silicon,180.5
+14,32,72.2,2.0,Linux,SSD,Intel,59.93
+14,16,21.0,2.0,MacOS,SSD,Apple Silicon,60.71
+3,8,20.82,2.0,Windows,SSD,AMD,249.13
+3,16,5.12,2.0,Linux,,Intel,200.52
+8,64,66.92,0.512,MacOS,HDD,Apple Silicon,58.68
+11,32,204.22,0.512,Linux,SSD,AMD,79.44
+8,32,95.55,1.0,MacOS,HDD,Apple Silicon,83.21
+11,8,103.48,1.0,Linux,HDD,Intel,82.97
+8,8,40.44,0.512,MacOS,HDD,Apple Silicon,113.0
+14,4,173.07,,MacOS,HDD,Apple Silicon,75.85
+9,16,103.3,0.512,Windows,HDD,AMD,97.8
+4,64,203.22,0.256,Windows,HDD,Intel,80.82
+14,4,222.7,2.0,MacOS,SSD,Apple Silicon,70.56
+12,16,175.82,1.0,Linux,HDD,AMD,69.23
+6,8,,0.256,MacOS,SSD,Apple Silicon,138.21
+7,64,153.07,2.0,Linux,SSD,Intel,67.97
+14,8,,0.512,Linux,HDD,Intel,66.04
+9,8,270.97,1.0,Linux,SSD,Intel,74.65
+9,32,230.15,0.512,Linux,SSD,Intel,89.69
+11,16,148.41,2.0,Windows,HDD,AMD,78.02
+4,4,289.67,2.0,MacOS,SSD,Apple Silicon,212.08
+13,32,164.48,0.512,Linux,HDD,Intel,61.56
+15,16,99.23,2.0,Windows,HDD,Intel,56.22
+5,16,29.54,2.0,Linux,HDD,Intel,143.15
+7,16,163.58,0.256,Linux,HDD,Intel,122.46
+5,64,258.26,,Windows,HDD,AMD,82.07
+11,32,,0.512,Windows,SSD,Intel,60.33
+5,4,181.77,1.0,Linux,,Intel,172.45
+6,32,118.64,0.256,MacOS,HDD,Apple Silicon,95.76
+11,8,,0.256,Windows,SSD,Intel,91.27
+8,16,228.88,2.0,MacOS,,Apple Silicon,99.35
+13,8,124.08,1.0,Linux,HDD,Intel,74.9
+3,32,143.4,1.0,Linux,,AMD,140.85
+14,4,204.5,0.256,Linux,HDD,Intel,59.42
+3,8,263.12,1.0,Linux,,AMD,257.88
+13,8,237.51,,Linux,HDD,Intel,61.82
+11,64,7.7,1.0,Linux,HDD,AMD,52.47
+15,32,38.19,0.256,MacOS,SSD,Apple Silicon,50.29
+10,8,255.98,0.256,Windows,HDD,AMD,78.94
+5,32,,2.0,Linux,SSD,Intel,122.32
+6,4,117.25,2.0,Windows,HDD,Intel,159.99
+4,8,175.7,1.0,MacOS,HDD,Apple Silicon,209.59
+3,4,271.85,2.0,Linux,HDD,Intel,300.6
+15,8,273.56,0.512,Linux,SSD,Intel,57.66
+11,16,235.14,0.512,Windows,SSD,AMD,84.75
+9,64,63.67,1.0,Windows,,AMD,62.18
+5,64,219.35,,Windows,HDD,AMD,67.35
+15,64,31.23,2.0,Linux,HDD,AMD,43.78
+13,4,268.29,1.0,Windows,SSD,Intel,72.36
+2,32,45.6,0.512,Windows,SSD,Intel,162.4
+14,64,199.04,0.256,MacOS,HDD,Apple Silicon,48.7
+7,8,183.46,2.0,Linux,HDD,AMD,118.45
+7,8,233.29,0.256,Linux,,Intel,137.26
+3,16,165.92,0.256,Linux,SSD,AMD,193.68
+3,4,18.81,2.0,Windows,SSD,AMD,286.02
+9,8,212.05,2.0,MacOS,HDD,Apple Silicon,101.19
+12,8,115.56,0.512,Windows,HDD,AMD,66.97
+8,16,96.77,0.512,Linux,HDD,Intel,98.45
+15,16,297.51,0.256,Windows,SSD,AMD,64.14
+3,32,177.53,0.256,Linux,HDD,AMD,151.94
