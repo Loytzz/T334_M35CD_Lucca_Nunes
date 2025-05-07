@@ -10,32 +10,32 @@ import warnings
 warnings.filterwarnings('ignore')
 
 # =============================================
-# 1. PRÉ-PROCESSAMENTO DOS DADOS (CORRIGIDO)
+# 1. PRÉ-PROCESSAMENTO DOS DADOS 
 # =============================================
 print("1. Pré-processamento dos dados...")
 
-# Carregar dados
+
 df = pd.read_csv('dataset_19.csv')
 
-# Tratar missing values
+
 df['latencia_ms'].fillna(df['latencia_ms'].median(), inplace=True)
 df['armazenamento_tb'].fillna(df['armazenamento_tb'].median(), inplace=True)
 df['tipo_hd'].fillna(df['tipo_hd'].mode()[0], inplace=True)
 df['tipo_processador'].fillna(df['tipo_processador'].mode()[0], inplace=True)
 
-# Codificação robusta de variáveis categóricas
+
 df_encoded = pd.get_dummies(
     data=df,
     columns=['sistema_operacional', 'tipo_hd', 'tipo_processador'],
-    drop_first=True,  # Evita multicolinearidade
-    dtype=int  # Garante valores numéricos
+    drop_first=True,  
+    dtype=int  
 )
 
-# Converter TODAS as colunas para numérico (correção crucial)
+
 for col in df_encoded.columns:
     df_encoded[col] = pd.to_numeric(df_encoded[col], errors='coerce')
 
-# Remover eventuais NaN restantes
+
 df_encoded.dropna(inplace=True)
 
 # =============================================
@@ -43,14 +43,14 @@ df_encoded.dropna(inplace=True)
 # =============================================
 print("\n2. Construção do modelo de regressão...")
 
-# Definir variáveis
+
 X = df_encoded.drop('tempo_resposta', axis=1)
 y = df_encoded['tempo_resposta']
 
-# Adicionar constante (termo de intercepto)
+
 X = sm.add_constant(X)
 
-# Garantir que não há NaN/infinitos
+
 print("\nVerificação final de dados:")
 print(f"- NaN em X: {X.isna().sum().sum()}")
 print(f"- NaN em y: {y.isna().sum()}")
@@ -69,11 +69,11 @@ print(modelo.summary())
 # =============================================
 print("\n4. Diagnóstico de multicolinearidade (VIF):")
 
-# Calcular VIF (excluindo a constante)
+
 vif_data = pd.DataFrame()
 vif_data["Variável"] = X.columns.drop('const')
 vif_data["VIF"] = [variance_inflation_factor(X.values, i) 
-                  for i in range(1, X.shape[1])]  # Começa em 1 para pular a constante
+                  for i in range(1, X.shape[1])]  
 
 print(vif_data.sort_values("VIF", ascending=False))
 
@@ -82,12 +82,11 @@ print(vif_data.sort_values("VIF", ascending=False))
 # =============================================
 print("\n5. Diagnóstico de heterocedasticidade:")
 
-# Teste de White
 labels = ['Estatística', 'Valor-p', 'F-Statistic', 'F p-value']
 white_test = het_white(modelo.resid, modelo.model.exog)
 print(dict(zip(labels, white_test)))
 
-# Gráfico de resíduos
+
 plt.figure(figsize=(10, 6))
 plt.scatter(modelo.fittedvalues, modelo.resid, alpha=0.5)
 plt.axhline(y=0, color='r', linestyle='--')
@@ -117,21 +116,20 @@ plt.savefig('distribuicao_residuos.png', bbox_inches='tight')
 plt.close()
 
 # =============================================
-# 7. MODELO REDUZIDO (OPCIONAL)
+# 7. MODELO REDUZIDO 
 # =============================================
 print("\n7. Modelo reduzido (exemplo removendo variáveis com VIF > 5):")
 
-# Selecionar variáveis com VIF < 5
+
 variaveis_selecionadas = vif_data[vif_data['VIF'] < 5]['Variável']
 X_reduzido = X[['const'] + list(variaveis_selecionadas)]
 
-# Ajustar novo modelo
+
 modelo_reduzido = sm.OLS(y, X_reduzido).fit()
 
 print("\nResultados do modelo reduzido:")
 print(modelo_reduzido.summary())
 
-# Comparação
 print(f"\nComparação:")
 print(f"- Modelo completo (R² ajustado): {modelo.rsquared_adj:.4f}")
 print(f"- Modelo reduzido (R² ajustado): {modelo_reduzido.rsquared_adj:.4f}")
